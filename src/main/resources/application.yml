@@ -1,0 +1,18 @@
+# Spring properties
+server:
+  port: 8080
+  servlet:
+    context-path : /rest-api
+
+logging:
+  level:
+    br: DEBUG #TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
+    #com.zaxxer: DEBUG
+    #$org.hibernate: DEBUG
+    #o.hibernate: DEBUG
+
+spring:
+  application:
+    name: exemplo-rest-api
+  profiles:
+    active: local
